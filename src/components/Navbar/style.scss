@@ -1,0 +1,32 @@
+$mainColor: #1C2D4F;
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: $mainColor;
+  padding: 20px;
+  .navbar-top {
+    img {
+      width: 240px;
+    }
+  }
+
+  .navbar-bottom {
+    display: flex;
+
+    .navbar-link {
+      display: flex;
+      text-decoration: none;
+      color: white;
+      padding: 10px;
+    }
+
+    .navbar-link:hover {
+      cursor: pointer;
+      color: #a1bbff;
+    }
+    
+  }
+}

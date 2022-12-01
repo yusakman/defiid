@@ -1,0 +1,45 @@
+$mainColor: #1c2d4f;
+$hoverColor: #567cdc;
+
+.footer {
+  margin: 30px 0 0 0;
+  background-color: $mainColor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  padding: 10px;
+
+  .footer-nav {
+    display: flex;
+
+    .footer-link {
+      display: flex;
+      text-decoration: none;
+      color: white;
+      padding: 10px;
+    }
+
+    .footer-link:hover {
+      cursor: pointer;
+      color: #a1bbff;
+    }
+  }
+
+  .footer-icon {
+    display: flex;
+  }
+
+  .footer-icon img {
+    padding: 10px;
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+  .footer-icon img:hover {
+    background-color: $hoverColor;
+  }
+}

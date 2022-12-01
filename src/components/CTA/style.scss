@@ -1,0 +1,36 @@
+$mainColor: #1c2d4f;
+$hoverColor: #567cdc;
+
+.cta-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  margin: 10px 0 50px 0;
+
+  .data-provider-wrapper,
+  .octopus-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $mainColor;
+  }
+
+  .data-provider-wrapper {
+    .data-provider-content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .data-provider-content img {
+      width: 250px;
+    }
+  }
+
+  .octopus-wrapper {
+    text-align: center;
+    width: 300px;
+    color: $mainColor;
+  }
+}

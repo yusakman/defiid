@@ -1,0 +1,41 @@
+$mainColor: #1c2d4f;
+$hoverColor: #567cdc;
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 50px 0;
+
+  .banner-text {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    // font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    display: flex;
+    font-size: large;
+    font-weight: 500;
+    color: $mainColor;
+  }
+
+  .tabs {
+    display: flex;
+    justify-content: center;
+
+    .tab {
+      border: none;
+      width: 100px;
+      height: 30px;
+      background-color: #1c2d4f;
+      color: white;
+    }
+
+    .tab-active {
+      background-color: $hoverColor;
+    }
+
+    .tab:hover {
+      cursor: pointer;
+      border-right: none;
+    }
+  }
+}

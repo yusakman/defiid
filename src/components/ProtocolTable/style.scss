@@ -1,0 +1,27 @@
+.table-wrapper {
+  padding: 0 100px;
+
+  @media only screen and (max-width: 500px) {
+    padding: 10px;
+  }
+}
+
+
+
+.data-name-url a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+.data-name-url a:hover {
+  text-decoration: underline;
+  color: rgb(88, 56, 192);
+}
+
+.currency-span {
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  width: 90px;
+}
