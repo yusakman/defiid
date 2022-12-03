@@ -15,11 +15,9 @@ const AboutComponent = (props) => {
       ))}
       <div className="cta-text">
         <h3>Tertarik untuk diskusi DeFi?</h3>
-        <button>
-          <a href={`https://t.me/defiidgroup`} target="_blank" rel="noreferrer">
-            Begabung
-          </a>
-        </button>
+        <a href={`https://t.me/defiidgroup`} target="_blank" rel="noreferrer">
+          <button>Begabung</button>
+        </a>
       </div>
     </div>
   );

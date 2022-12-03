@@ -36,7 +36,7 @@ $hoverColor: #567cdc;
     margin: 20px 0;
   }
 
-  .cta-text button {
+  .cta-text a button {
     background-color: $mainColor;
     border: none;
     border-radius: 15px;
@@ -45,7 +45,7 @@ $hoverColor: #567cdc;
     font-size: medium;
   }
 
-  .cta-text button a {
+  .cta-text a button {
     text-decoration: none;
     color: #fff;
   }
